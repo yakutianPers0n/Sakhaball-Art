@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 10px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding-right: 20px;
+}
+
+header{
+    height: 200px; /*Высота блока*/
+    background-color: rgb(255, 227, 240); /*цвет фона*/
+    color: rgb(197, 42, 94); /*цвет текста*/
+    text-align: center;
+    font-size: 30px;
+    background-image: url(https://sneg.top/uploads/posts/2023-03/1680159089_sneg-top-p-oboi-kantribolz-na-telefon-vkontakte-40.png);
+    background-position: middle;
+
+    font-family: "segoe print";
+}
+
+main{
+    height: 100%; /*Высота блока*/
+    background-color: rgb(255, 247, 233); /*цвет фона*/
+    color: rgb(209, 174, 160); /*цвет текста*/
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "segoe print";
+    display: flex;
+
+}
+
+.left{
+    width: 50%;
+    font-size: 20px;
+}
+
+.right{
+    width: 50%;
+}
+
+footer{
+    height: 400px; /*Высота блока*/
+    background-color: rgb(119, 70, 70); /*цвет фона*/
+    color: rgba(172, 131, 139, 0.966); /*цвет текста*/
+    
+    font-size: 40px;
+    font-family: "segoe print";
+    padding-top: 20px;
+}
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
